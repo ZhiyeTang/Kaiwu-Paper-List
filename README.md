@@ -15,7 +15,7 @@
 > 基于强化学习，引入策略蒸馏（Policy Distillation）的思想将多个专家策略的知识压缩到一个模型上，让一个模型学会多个英雄的玩法。
 
 [5] [Gao, Yiming, et al. "Learning Diverse Policies in MOBA Games via Macro-Goals." Advances in Neural Information Processing Systems 34 (2021): 16171-16182.](https://arxiv.org/pdf/2110.14221.pdf) (NeurIPS 2021)
-> 本文设计了一个元控制器（Meta-Controller）与和宏观策略引导（Macro-Goals Guided，MGG）的训练框架。元控制器通过有监督学习人类专家的操作意图，然后再放置到强化学习框架中进行进一步的强化学习。
+> 本文设计了一个元控制器（Meta-Controller）和宏观策略引导（Macro-Goals Guided，MGG）的训练框架。元控制器通过有监督学习人类专家的操作意图，然后再放置到强化学习框架中进行进一步的强化学习。
 
 ## 第三方论文
 
